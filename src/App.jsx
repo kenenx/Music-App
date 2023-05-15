@@ -13,7 +13,7 @@ function Song1 () {
   <>
     <img
   className="thumbnail"
-  src=".\src\assets\images\icedancer.png"
+  src="./public/images/icedancer.png"
   alt="Icedancer album art"
   />
   <LikeButton />
@@ -30,7 +30,7 @@ function Song2 () {
   <>
   <img
   className="thumbnail"
-  src=".\src\assets\images\amygdala.jpg"
+  src="./public/images/amygdala.jpg"
   alt="amygdala album art"
   />
   <LikeButton />
@@ -47,7 +47,7 @@ function Song3 () {
   <>
   <img
   className="thumbnail"
-  src=".\src\assets\images\back 2 life.jpg"
+  src="./public/images/back 2 life.jpg"
   alt="back 2 life album art"
   />
   <LikeButton />
@@ -64,7 +64,7 @@ function Song4 () {
   <>
   <img
   className="thumbnail"
-  src=".\src\assets\images\trashisland.jpg"
+  src="./public/images/trashisland.jpg"
   alt="trashisland album art"
   />
   <LikeButton />
