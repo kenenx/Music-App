@@ -1,4 +1,15 @@
-function Song1 () {
+// function Songs () {
+//     return (
+//     <>
+//         <p>{track.name} <br />
+//         Album : {track.album} <br />
+//         Artist : {track.artists}
+//         </p>
+//     </>
+//     );
+//   }
+
+  function Song1 () {
     return (
     <>
         <p>Be Nice 2 Me <br />
@@ -7,36 +18,39 @@ function Song1 () {
         </p>
     </>
     );
-}
+  }
+  
+  function Song2 () {
+    return (
+    <>
+        <p>Amygdala <br />
+        Album : Single <br />
+        Artist : Bladee and Ecco2k
+        </p>
+    </>
+    )
+  }
+  
+  function Song3 () {
+    return (
+    <>
+        <p>True Love <br />
+        Album : Back 2 Life <br />
+        Artist : Thaiboy Digital and Yung Lean
+        </p>
+    </>
+    )
+  }
+  
+  function Song4 () {
+    return (
+    <>
+        <p>Western Union <br />
+        Album : Trash Island <br />
+        Artist : Ecco2k ,Thaiboy Digital and Bladee
+        </p>
+    </>
+    )
+  }
 
-// function Song2 () {
-//     return (
-//     <>
-//         <h3>Amygdala</h3>
-//         <p>Album : Single</p>
-//         <p>Artist : Bladee and Ecco2k</p>
-//     </>
-//     )
-// }
-
-// function Song3 () {
-//     return (
-//     <>
-//         <h3>True Love</h3>
-//         <p>Album : Back 2 Life</p>
-//         <p>Artist : Thaiboy Digital and Yung Lean</p>
-//     </>
-//     )
-// }
-
-// function Song4 () {
-//     return (
-//     <>
-//         <h3>Western Union</h3>
-//         <p>Album : Trash Island</p>
-//         <p>Artist : Ecco2k,Thaiboy Digital and Bladee</p>
-//     </>
-//     )
-// }
-
-export default Song1
+export default {Song1,Song2,Song3,Song4}

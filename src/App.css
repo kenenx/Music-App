@@ -5,10 +5,16 @@
   text-align: center;
 }
 
-.card {
-  padding: 2em;
+.thumbnail {
+  width: 70px;
+  height: auto;
+  float:left;
+  display: flex;
+  align-items: center;
 }
 
-.read-the-docs {
-  color: #888;
+.likeButton {
+  float:right;
+  display: flex;
+  align-items: center;
 }
