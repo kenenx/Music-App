@@ -3,9 +3,9 @@ import './Intro.css'
 function Intro () {
     return(
       <div>
-        <a>
+        {/* <a>
             <img src="./src/assets/images/Logo.png" className="logo" alt="Drain Gang Logo" />
-          </a>
+          </a> */}
         <h1>Drain Gang</h1>
           <a>
             <img src="./src\assets\images\DG-members.jpg" className="logo" alt="Drain Gang Members" />

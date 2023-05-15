@@ -5,7 +5,7 @@ export default function DGForm() {
   return (
     <>
       <label>
-        Pick your favourite Drain Gang member:
+        Pick your favourite Drain Gang member : 
         <select
           value={selectedMember}
           onChange={e => setSelectedMember(e.target.value)}
