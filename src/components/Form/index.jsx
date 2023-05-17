@@ -33,7 +33,7 @@ export default function DGForm() {
         </select>
       </label>
       {/* <hr />
-      <p>Your favourite Drain Gang member: {selectedMember}</p> */}
+      <p>Your favourite Drain Gang member: {color}</p> */}
     </>
   );
 }

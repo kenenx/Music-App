@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Intro />
-      <h2>My favourite songs</h2>
+      <h2>Drain Gang Popular Songs</h2>
       <Tracklist trackdata={trackdata}/>
 
       <DGForm />
