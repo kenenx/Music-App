@@ -1,5 +1,6 @@
 import React from 'react'
 import Track from '../Track'
+import './style.css'
 
 const Tracklist = ({trackdata}) => {
   return (
