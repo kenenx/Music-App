@@ -11,7 +11,7 @@ export default function DGForm() {
           onChange={e => setSelectedMember(e.target.value)}
         >
           <option value="bladee">Bladee</option>
-          <option value="ecco2k">Ecoo2k</option>
+          <option value="ecco2k">Ecco2k</option>
           <option value="thaiboydigital">Thaiboy Digital</option>
         </select>
       </label>
