@@ -5,14 +5,16 @@ const colors = {
   Ecco2k: '#b1b1b1',
   ThaiboyDigital: '#ebebeb',
 }
-const random = Math.floor(Math.random() * colors.length)
-console.log(colors)
-console.log(random)
-console.log(colors[random])
 
 export default function DGForm() {
-  const [selectedMember, setSelectedMember] = useState('bladee')
+  // const [selectedMember, setSelectedMember] = useState('bladee')
   const [color, setColor] = useState(colors.Bladee);
+
+  function getKeyByValue(object, value) {
+    return Object.keys(object).find(key => object[key] === value);
+  }
+
+  console.log(getKeyByValue(colors, color))
 
 
   useEffect(() => { document.body.style.background = color
@@ -32,12 +34,8 @@ export default function DGForm() {
         ))}
         </select>
       </label>
-      {/* <hr />
-      <p>Your favourite Drain Gang member: {color}</p> */}
+      <hr />
+      <p>Your favourite Drain Gang member: {getKeyByValue(colors, color)}</p>
     </>
   );
 }
-
-{/* <option value="Bladee">Bladee</option>
-<option value="Ecco2k">Ecco2k</option>
-<option value="Thaiboydigital">Thaiboy Digital</option> */}
