@@ -10,7 +10,7 @@ const Trackinfo = ({}) => {
   const navigate = useNavigate()
 
   let songFinder = songInfo.find(e => e.name === name)
-
+  console.log(songFinder.album_art)
   return (
     <>
       <>
