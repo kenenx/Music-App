@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 import Heart from 'react-heart'
+import './style.css'
 
 function LikeButton() {
     const [active, setActive] = useState(false)
     return (
-      <div className="likeButton" style={{ width: "2rem" }}>
+      <div className="likeButton">
         <Heart isActive={active} onClick={() => setActive(!active)}/>
       </div>
     );

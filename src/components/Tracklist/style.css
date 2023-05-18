@@ -1,0 +1,7 @@
+.thumbnail {
+  width: 74px;
+  height: auto;
+  float:left;
+  display: flex;
+  align-items: center;
+}

@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 
 const colors = {
   Bladee: '#e7bce7',
-  Ecco2k: '#b1b1b1',
+  Ecco2k: '#c7fcf9',
   ThaiboyDigital: '#ebebeb',
 }
 
 export default function DGForm() {
   // const [selectedMember, setSelectedMember] = useState('bladee')
-  const [color, setColor] = useState(colors.Bladee);
+  const [color, setColor] = useState();
 
   function getKeyByValue(object, value) {
     return Object.keys(object).find(key => object[key] === value);
