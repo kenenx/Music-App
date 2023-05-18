@@ -6,6 +6,12 @@ nav {
   background: rgb(39, 37, 37);
   color: white;
   margin-bottom: 60px;
+  width: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 .nav-links {
   display: flex;

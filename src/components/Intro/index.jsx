@@ -2,7 +2,7 @@ import './style.css'
 
 function Intro () {
     return(
-      <div>
+      <div className ='intro'>
         {/* <a>
             <img src="./src/assets/images/Logo.png" className="logo" alt="Drain Gang Logo" />
           </a> */}

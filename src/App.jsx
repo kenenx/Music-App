@@ -4,7 +4,7 @@ import {NavBar} from './layout'
 // import { DGForm, Intro, Tracklist} from './components'
 // import trackdata from './trackdata.js'
 import { Home, Songs,TrackInfo } from './pages'
-
+import './index.css'
 
 function App() {
 

@@ -7,8 +7,8 @@ const Home = () => {
     <>
       <>
       <Intro />
-      <h2>Drain Gang Popular Songs</h2>
-      <Tracklist trackdata={trackdata}/>
+      {/* <h2>Drain Gang Popular Songs</h2>
+      <Tracklist trackdata={trackdata}/> */}
       <DGForm />
       </>
     </>

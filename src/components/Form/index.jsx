@@ -8,7 +8,7 @@ const colors = {
 
 export default function DGForm() {
   // const [selectedMember, setSelectedMember] = useState('bladee')
-  const [color, setColor] = useState(colors.Bladee);
+  const [color, setColor] = useState();
 
   function getKeyByValue(object, value) {
     return Object.keys(object).find(key => object[key] === value);
